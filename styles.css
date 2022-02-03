@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
 * {
   box-sizing: border-box=85%vw;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 body {
   margin: 60px;
@@ -10,7 +10,7 @@ body {
 
   background-color: lightgrey;
 
-  font-family: "Roboto", Arial;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 ul {
   font: times;
@@ -26,12 +26,27 @@ figcaption {
   background-color: grey;
 }
 
-.profile-style {
-  display: grid;
-}
-
 nav {
   border: 10px;
   border-radius: 15%;
   margin: 10px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 8px;
+  justify-content: space-around;
+}
+
+.navelements,
+h3,
+h4 {
+  background-color: skyblue;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
