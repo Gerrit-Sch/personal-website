@@ -1,4 +1,4 @@
-@import url();('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
 * {
   box-sizing: border-box=85%vw;
   font-family: Arial, Helvetica, sans-serif;
@@ -6,21 +6,20 @@
 body {
   margin: 50px;
   border: 10px;
+  border-color: slategray;
   background-color: whitesmoke;
-  font-family: "Lato", Arial;
+  font-family: "Roboto", Arial;
 }
 ul {
-    font: times;
-        font-size: 15;
-        list-style-position: outside;
-        color: grey;
-        
+  font: times;
+  font-size: 15;
+  list-style-position: outside;
+  color: grey;
 }
 figcaption {
-    font-family: impact;
-    font-size: small;
+  font-family: impact;
+  font-size: small;
 }
-.justin-class{
-    background-color: tan;
-
+.justin-class {
+  background-color: tan;
 }
