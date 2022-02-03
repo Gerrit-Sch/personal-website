@@ -4,10 +4,12 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  margin: 50px;
+  margin: 60px;
   border: 10px;
-  border-color: slategray;
-  background-color: whitesmoke;
+  border-style: groove;
+
+  background-color: lightgrey;
+
   font-family: "Roboto", Arial;
 }
 ul {
@@ -21,5 +23,15 @@ figcaption {
   font-size: small;
 }
 .justin-class {
-  background-color: tan;
+  background-color: grey;
+}
+
+.profile-style {
+  display: grid;
+}
+
+nav {
+  border: 10px;
+  border-radius: 15%;
+  margin: 10px;
 }
