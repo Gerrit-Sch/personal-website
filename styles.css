@@ -1,0 +1,26 @@
+@import url();('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+* {
+  box-sizing: border-box=85%vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 50px;
+  border: 10px;
+  background-color: whitesmoke;
+  font-family: "Lato", Arial;
+}
+ul {
+    font: times;
+        font-size: 15;
+        list-style-position: outside;
+        color: grey;
+        
+}
+figcaption {
+    font-family: impact;
+    font-size: small;
+}
+.justin-class{
+    background-color: tan;
+
+}
