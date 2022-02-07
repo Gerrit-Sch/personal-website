@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 25px;
+  border: 10px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-radius: 5px;
+
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+figcaption {
+  font-family: impact;
+  font-size: small;
+}
+
+ul,
+p {
+  border: 5px;
+  border-color: black;
+  color: black;
+
+  border-radius: 10px;
+}
+
+h3,
+h4 {
+  background-color: #5f9ea0;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+}
